@@ -12,6 +12,7 @@
 @interface AXCGiphyImage : NSObject
 /** URL for animated GIF*/
 @property (readonly, strong, nonatomic) NSURL * url;
+@property (readonly, copy, nonatomic) NSString *gifUrl;
 /** width for animated GIF*/
 @property (readonly, nonatomic) CGFloat width;
 /** height for animated GIF*/

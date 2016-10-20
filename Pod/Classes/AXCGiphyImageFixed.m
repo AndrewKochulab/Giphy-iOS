@@ -22,6 +22,7 @@
         return nil;
     }
     
+    self.url = [NSURL URLWithString:dictionary[@"url"]];
     self.mp4 = [NSURL URLWithString:dictionary[@"mp4"]];
     
     return self;
